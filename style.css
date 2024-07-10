@@ -141,17 +141,23 @@ height: 552px;
     margin: o auto;;
     border: 2px solid red;
     height: 330px;
-  
- 
-}
-.support-section-container{
-    width: 1440px;
-    height: 314px;
+    flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.support-section-container{
+    width: 1040px;
+    height: 314px;
     flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     background-image: url("./assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-size: cover;
 }
 .support-container{
     

@@ -98,4 +98,47 @@ height: 552px;
      border: 2px solid rgba(13, 19, 33, 0.2);;
      border-radius: 10px;
      padding: 30px;
+     
+}
+
+/* section My Current Target */
+.target-text-containter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ 
+}
+.main-parent-container{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    flex-direction: row;
+    margin-top: 20px;
+    gap: 40px;
+   
+}
+.firstimg{
+    background-color: rgba(255, 76, 30, 0.05);;
+    border-radius: 15px;
+    padding: 40px;
+    
+}
+.secimg{
+    background-color: rgba(0, 76, 232, 0.05);;
+    border-radius: 15px;
+    padding: 40px;
+    
+}
+.thirdimg{
+    background-color: rgba(255, 223, 0, 0.05);;
+    border-radius: 15px;
+    padding: 40px
+}
+
+.support-section-container{
+    margin: o auto;;
+    border: 2px solid red;
+    height: 330px;
+    width:80% ;
 }

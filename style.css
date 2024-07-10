@@ -3,19 +3,48 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/* nav section start  */
+
+
+
+
 .nav-section{
     display: flex;
+    max-width: 980px;
     margin: 0 auto;
      flex-direction: row;
      gap: 20px;
      justify-content: space-between;
-    padding:40px   ;  
+    padding: 20px 0 ;
+    margin-bottom: 10px;
+    align-items: center;
+   
 }
 .nav-btn{
     padding: 10px 20px;
     font-weight: bold;
     background-color:white ;
+    border-radius: 5px;
+    border: 1px solid rgb(13, 19, 33);
 }
+.text-size{
+    font-weight: bolder;
+    color: rgb(13, 19, 33);
+    font-size: 25px;
+}
+
+
+
+
+
+
+/* banner section start  */
+
+
+
+
 
 .banner-section{
     background-image: url('./assets/Hero-bg.png');
@@ -61,32 +90,49 @@ text-decoration: none;
    
     
 }
+
+
+
+
+
+/* why web development section start  */
+
+
+
+
 .why-text-container{
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 50px;
     width: 100%;
-    margin: 0 auto;
-    margin-bottom: 20px;
+    margin: 40 auto;
+    margin-bottom: 10px;
+    padding: 50px;
 }
 
 .img-text-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     background-color: rgb(255, 255, 255);
     margin: 20px;
     border-radius: 10px;
-    
+    padding: 30px;
+    gap: 50px;
 
 }
 .text-backcolor{
     background-color: rgb(255, 255, 255)
     rgba(255, 255, 255, 0);
-   
+   justify-content: center;
+   align-items: center;
     border-radius: 15px;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
 }
 .text-backcolor button{
     padding: 10px 20px;
@@ -103,12 +149,17 @@ text-decoration: none;
     font-weight: bold;
 } 
 
+
+/* <!-- My Inspiration Target section  --> */
+
+
+
 .inspi-section-container{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-   
+   gap: 30px;
 }
 .vieo-section-container{
      margin: 25px auto;
@@ -118,23 +169,32 @@ text-decoration: none;
      
 }
 
+
+
+
+
 /* section My Current Target */
+
+
+
+
 .target-text-containter{
     margin: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
- 
+ gap: 40px;
 }
 .main-parent-container{
     display: flex;
    justify-content: center;
    align-items: center;
     flex-direction: row;
-    margin-top: 20px;
-    gap: 40px;
-   
+    margin-top: 40px;
+    gap: 50px;
+   padding: 50px;
+   margin-bottom: 50px;
 }
 .firstimg{
     background-color: rgba(255, 76, 30, 0.05);;
@@ -154,7 +214,12 @@ text-decoration: none;
     padding: 40px
 }
 
+
+
 /* <!-- I need Support  --> */
+
+
+
 .support-section-container{
     margin: 0 auto;
     background-color: rgba(0, 0, 0, 0.2);
@@ -206,6 +271,11 @@ border: none  ;
 
 
 /* An Open Commitment by Nahida  */
+
+
+
+
+
 .footer-main-container{
   max-width: 980px;
   margin: 0 auto;

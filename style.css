@@ -11,7 +11,10 @@ background-position: center;
 width: 1500px;
 height: 552px;
 }
-
+.anchor{
+    text-decoration: none;
+    color: white;
+}
 .banner-text-container{
     display: flex;
     flex-direction: column;
@@ -26,6 +29,7 @@ height: 552px;
   background-color: rgb(13, 19, 33);
   color: white;
   border-radius: 5px;
+text-decoration: none;
 
 }
 
@@ -183,3 +187,18 @@ height: 40px;
 border-radius: 5px;
 border: none  ;
 }
+
+
+
+/* An Open Commitment by Nahida  */
+.footer-main-container{
+  margin-top: 50px ;
+    display: flex;
+   flex-direction: row;gap: 20px;
+   justify-content: space-between;
+  padding:80px  ;
+   padding: 42px 30px 42px 30px;
+   background-color: rgba(13, 19, 33, 0.03);
+}
+
+

@@ -136,9 +136,39 @@ height: 552px;
     padding: 40px
 }
 
+/* <!-- I need Support  --> */
 .support-section-container{
     margin: o auto;;
     border: 2px solid red;
     height: 330px;
-    width:80% ;
+  
+ 
+}
+.support-section-container{
+    width: 1440px;
+    height: 314px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("./assets/handshake.jpg");
+}
+.support-container{
+    
+}
+.support-container p{
+margin-bottom:30px;
+}
+.support-container input{
+    width: 448px;
+height: 37px;
+border-radius: 5px;
+border: none  ;
+background-color: rgb(255, 255, 255);;
+}
+.support-container button{
+    width: 100px;
+height: 40px;
+border-radius: 5px;
+border: none  ;
 }
